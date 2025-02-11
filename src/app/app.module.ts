@@ -14,6 +14,9 @@ import { RequestComponent } from './request/request/request.component';
 import { FooterlComponent } from './footerl/footerl/footerl.component';
 import { GaleriaComponent } from './galeria/galeria/galeria.component';
 
+import { inject } from '@vercel/analytics';
+inject();
+
 @NgModule({
   declarations: [
     AppComponent,
