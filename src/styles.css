@@ -6,6 +6,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "flowbite/src/themes/default";
-@import "flowbite/src/components";
-@plugin "flowbite/plugin";
