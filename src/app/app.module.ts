@@ -15,6 +15,10 @@ import { FooterlComponent } from './footerl/footerl/footerl.component';
 import { GaleriaComponent } from './galeria/galeria/galeria.component';
 
 import { inject } from '@vercel/analytics';
+import { Expo1Component } from './expo1/expo1/expo1.component';
+import { Expo2Component } from './expo2/expo2/expo2.component';
+import { Expo3Component } from './expo3/expo3/expo3.component';
+import { Expo4Component } from './expo4/expo4/expo4.component';
 inject();
 
 @NgModule({
@@ -27,7 +31,11 @@ inject();
     HeaderComponent,
     RequestComponent,
     FooterlComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    Expo1Component,
+    Expo2Component,
+    Expo3Component,
+    Expo4Component
   ],
   imports: [
     BrowserModule,
