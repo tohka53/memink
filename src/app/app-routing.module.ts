@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'expo4',
     loadChildren: () => import('./expo4/expo4/expo4.module').then(m => m.Expo4Module)
   },  
+  {
+    path: 'expo5',
+    loadChildren: () => import('./expo5/expo5/expo5.module').then(m => m.Expo5Module)
+  },  
 
 
   {

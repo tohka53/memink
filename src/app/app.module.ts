@@ -19,6 +19,7 @@ import { Expo1Component } from './expo1/expo1/expo1.component';
 import { Expo2Component } from './expo2/expo2/expo2.component';
 import { Expo3Component } from './expo3/expo3/expo3.component';
 import { Expo4Component } from './expo4/expo4/expo4.component';
+import { Expo5Component } from './expo5/expo5/expo5.component';
 inject();
 
 @NgModule({
@@ -35,7 +36,8 @@ inject();
     Expo1Component,
     Expo2Component,
     Expo3Component,
-    Expo4Component
+    Expo4Component,
+    Expo5Component
   ],
   imports: [
     BrowserModule,
